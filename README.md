@@ -1,3 +1,5 @@
+https://www.ncbi.nlm.nih.gov/pmc  
+
 1、先从网站上导出搜索列表，放在pmc_result.txt文件中  
 
 ![](pcmid.png)

@@ -37,7 +37,6 @@ with open(pcmid_file, 'r',  encoding='utf-8') as file:
             continue
         
         
-
         # 开始写入
         write_to_txt('Start\n')
 
@@ -108,9 +107,9 @@ with open(pcmid_file, 'r',  encoding='utf-8') as file:
         # 全文
         write_to_txt('[全文]\n')
         p_elements_with_xref = root.findall('.//p[xref]')
-        combined_content = ''
-        for p in p_elements_with_xref:
+        for qk, p in enumerate(p_elements_with_xref):
             try:
+                combined_content = str(qk) + ': '
                 combined_content += ''.join(p.itertext()) + ' '
                 combined_content = combined_content.replace('\n', '')
                 write_to_txt(combined_content + '\n\n')

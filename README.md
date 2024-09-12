@@ -1,4 +1,5 @@
-1、先从网站上导出搜索列表，放在pmc_result.txt文件中
+1、先从网站上导出搜索列表，放在pmc_result.txt文件中  
+
 ![](pcmid.png)
 
 2、运行 extract_pcmid.py，从pmc_result.txt文件提取PCMID并存在id.txt中

@@ -1,4 +1,4 @@
-该仓库用于从PMC网站论文的xml中提取作者、标题、摘要、引文位置、引文等信息。
+该仓库用于从PMC网站论文的xml中提取作者、标题、摘要、引文位置、引文等信息。  
 This repository is used to extract information from paper XML in website PMC, which includes author, title, abstract, reference location and reference.
 
 
